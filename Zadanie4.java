@@ -1,0 +1,26 @@
+/**
+ * Created by RENT on 2017-07-17.
+ */
+public class Zadanie4 {
+
+    public static void fizzBuzz() {
+        for (int i = 1; i <= 20; i++) {
+
+            if ((i % 3 == 0) && (i % 5 == 0)) {
+                System.out.println("FizzBuzz ");
+            } else if (i % 5 == 0) {
+                System.out.println("Buzz ");
+            } else if (i % 3 == 0)  {
+                System.out.println("Fizz");
+            } else {
+                System.out.println(i);
+            }
+
+
+        }
+    }
+
+    public static void main(String[] args) {
+        fizzBuzz();
+    }
+}
